@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(189, 187, 187);
+
+}
+section{
+    background-color: rgb(161, 160, 160);
+    padding: 20px;
+}
+article{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+article header{
+    background-color: rgba(128, 128, 128, 0.288);
+    border-bottom: rgba(128, 128, 128, 0.479) 3px solid;
+    
+    
+}
+article header h1{
+    font-weight: bold;
+    padding: 20px 10px;
+    margin: 5px;
+}
+article ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 12px;
+    background-color: rgb(185, 185, 185);
+    width: fit-content;
+    border-radius: 5px;
+}
+    article ul li a:visited{
+    color: blue;
+    }
+
+#cabeçalho{
+    background-image: url(ProjetoCSS-inicio/imagens/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    height: 45vh;
+    text-align: center;
+}
+#titulo{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 80px;
+    text-shadow: 1px 1px 2px black;
+}
+#subtitulo{
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 5px 15px;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    display: inline-block; /* usado para desfazer a chamada em bloco causada pela fit content */
+    border-bottom: white solid 2px;
+}
+
+
+nav{
+    text-align: left;
+    position: fixed;
+    top: 10px;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    background-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 0px;
+
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+footer{
+    text-align: center;
+}

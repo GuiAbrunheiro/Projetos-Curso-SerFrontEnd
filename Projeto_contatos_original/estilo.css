@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, h1{
+    color: #385555;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 600px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    overflow-y: auto;
+    max-height: 500px;
+}
+.pessoa{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    padding-bottom: 15px; 
+    padding-right: 20px;  
+}
+.foto{
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 5px;
+}
+.imgperson{
+    border-radius: 50%;
+}
+a img{
+    width: 20px;
+    height: 20px;
+}
+.informções{
+    margin-left: 20px;
+    width: 100%;
+    margin-right: 10px;
+    
+}
+.botão{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+
+}
+.botão a{
+    padding-left: 6px;
+}
+
+#pessoa1:hover{
+background-color: #ccc;
+
+}
+#pessoa1:hover .botão{
+visibility: visible;
+    
+    }
+    #pessoa2:hover{
+        background-color: #ccc;
+        
+        }
+        #pessoa2:hover .botão{
+        visibility: visible;
+            
+            }
+            #pessoa3:hover{
+                background-color: #ccc;
+                
+                }
+                #pessoa3:hover .botão{
+                visibility: visible;
+                    
+                    }
+                    #pessoa4:hover{
+                        background-color: #ccc;
+                        
+                        }
+                        #pessoa4:hover .botão{
+                        visibility: visible;
+                            
+                            }
+                           

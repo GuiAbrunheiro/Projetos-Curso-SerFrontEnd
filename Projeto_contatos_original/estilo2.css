@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding-bottom: 100PX;
+}
+.container{
+ display: flex;
+ flex-direction: row;
+ flex-flow: wrap;
+ align-items: center;
+ height: 90vh;
+ width: 54vw;
+ margin-top: 50px;
+ margin-bottom: 100px;
+ 
+}
+.pessoa{
+
+width: 25.1vw;
+margin-bottom: 100px;
+    
+}
+#pessoa1, #pessoa3{
+    margin-right: 70px;
+}
+.foto{
+    background-image: url(imagens/thumb01.jpg);
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    
+}
+.foto img{
+    margin-top: 170px;
+    border-radius: 60px;
+}
+.informções{
+    margin-top: 60px;
+}
+.botão{
+    background-color: #ccc;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    display: flexbox;
+    align-items: center;
+}
+.botão img{
+    width: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
