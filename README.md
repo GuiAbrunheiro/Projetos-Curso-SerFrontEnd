@@ -1,4 +1,4 @@
-Projetos - Curso SerFrontEnd 🚀
+#Projetos - Curso SerFrontEnd 🚀
 
 Este repositório contém os projetos desenvolvidos ao longo do curso "Ser Front-End" da Udemy.O foco principal é a construção de landing pages utilizando HTML, CSS e, em alguns casos, JavaScript puro.
 
